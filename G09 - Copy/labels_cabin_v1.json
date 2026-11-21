@@ -1,0 +1,342 @@
+[
+  {
+    "name": "face",
+    "type": "rectangle",
+    "attributes": [
+      {
+        "name": "eye_left",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "unknown",
+        "values": [
+          "unknown",
+          "open",
+          "closed"
+        ]
+      },
+      {
+        "name": "eye_right",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "unknown",
+        "values": [
+          "unknown",
+          "open",
+          "closed"
+        ]
+      },
+      {
+        "name": "glasses",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "unknown",
+        "values": [
+          "unknown",
+          "none",
+          "clear",
+          "sun"
+        ]
+      },
+      {
+        "name": "gaze_zone",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "other",
+        "values": [
+          "other",
+          "road",
+          "mirror_l",
+          "mirror_r",
+          "mirror_c",
+          "cluster",
+          "center",
+          "lap"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "face13",
+    "type": "skeleton",
+    "attributes": [],
+    "sublabels": [
+      {
+        "name": "left_eye_outer",
+        "type": "points",
+        "attributes": []
+      },
+      {
+        "name": "left_eye_inner",
+        "type": "points",
+        "attributes": []
+      },
+      {
+        "name": "left_eye_upper",
+        "type": "points",
+        "attributes": []
+      },
+      {
+        "name": "left_eye_lower",
+        "type": "points",
+        "attributes": []
+      },
+      {
+        "name": "right_eye_outer",
+        "type": "points",
+        "attributes": []
+      },
+      {
+        "name": "right_eye_inner",
+        "type": "points",
+        "attributes": []
+      },
+      {
+        "name": "right_eye_upper",
+        "type": "points",
+        "attributes": []
+      },
+      {
+        "name": "right_eye_lower",
+        "type": "points",
+        "attributes": []
+      },
+      {
+        "name": "nose_tip",
+        "type": "points",
+        "attributes": []
+      },
+      {
+        "name": "mouth_left",
+        "type": "points",
+        "attributes": []
+      },
+      {
+        "name": "mouth_right",
+        "type": "points",
+        "attributes": []
+      },
+      {
+        "name": "lip_upper",
+        "type": "points",
+        "attributes": []
+      },
+      {
+        "name": "lip_lower",
+        "type": "points",
+        "attributes": []
+      }
+    ],
+    "svg": "<line x1=\"80\" y1=\"30\" x2=\"70\" y2=\"25\" stroke=\"black\" data-type=\"edge\" data-node-from=\"1\" data-node-to=\"3\"></line><line x1=\"80\" y1=\"30\" x2=\"70\" y2=\"35\" stroke=\"black\" data-type=\"edge\" data-node-from=\"1\" data-node-to=\"4\"></line><line x1=\"60\" y1=\"30\" x2=\"70\" y2=\"25\" stroke=\"black\" data-type=\"edge\" data-node-from=\"2\" data-node-to=\"3\"></line><line x1=\"60\" y1=\"30\" x2=\"70\" y2=\"35\" stroke=\"black\" data-type=\"edge\" data-node-from=\"2\" data-node-to=\"4\"></line><line x1=\"20\" y1=\"30\" x2=\"30\" y2=\"25\" stroke=\"black\" data-type=\"edge\" data-node-from=\"5\" data-node-to=\"7\"></line><line x1=\"20\" y1=\"30\" x2=\"30\" y2=\"35\" stroke=\"black\" data-type=\"edge\" data-node-from=\"5\" data-node-to=\"8\"></line><line x1=\"40\" y1=\"30\" x2=\"30\" y2=\"25\" stroke=\"black\" data-type=\"edge\" data-node-from=\"6\" data-node-to=\"7\"></line><line x1=\"40\" y1=\"30\" x2=\"30\" y2=\"35\" stroke=\"black\" data-type=\"edge\" data-node-from=\"6\" data-node-to=\"8\"></line><line x1=\"65\" y1=\"75\" x2=\"50\" y2=\"70\" stroke=\"black\" data-type=\"edge\" data-node-from=\"10\" data-node-to=\"12\"></line><line x1=\"65\" y1=\"75\" x2=\"50\" y2=\"82\" stroke=\"black\" data-type=\"edge\" data-node-from=\"10\" data-node-to=\"13\"></line><line x1=\"35\" y1=\"75\" x2=\"50\" y2=\"70\" stroke=\"black\" data-type=\"edge\" data-node-from=\"11\" data-node-to=\"12\"></line><line x1=\"35\" y1=\"75\" x2=\"50\" y2=\"82\" stroke=\"black\" data-type=\"edge\" data-node-from=\"11\" data-node-to=\"13\"></line><line x1=\"50\" y1=\"55\" x2=\"50\" y2=\"70\" stroke=\"black\" data-type=\"edge\" data-node-from=\"9\" data-node-to=\"12\"></line><circle r=\"1.5\" stroke=\"black\" fill=\"#b3b3b3\" cx=\"80\" cy=\"30\" data-type=\"element node\" data-element-id=\"1\" data-node-id=\"1\" data-label-name=\"left_eye_outer\"></circle><circle r=\"1.5\" stroke=\"black\" fill=\"#b3b3b3\" cx=\"60\" cy=\"30\" data-type=\"element node\" data-element-id=\"2\" data-node-id=\"2\" data-label-name=\"left_eye_inner\"></circle><circle r=\"1.5\" stroke=\"black\" fill=\"#b3b3b3\" cx=\"70\" cy=\"25\" data-type=\"element node\" data-element-id=\"3\" data-node-id=\"3\" data-label-name=\"left_eye_upper\"></circle><circle r=\"1.5\" stroke=\"black\" fill=\"#b3b3b3\" cx=\"70\" cy=\"35\" data-type=\"element node\" data-element-id=\"4\" data-node-id=\"4\" data-label-name=\"left_eye_lower\"></circle><circle r=\"1.5\" stroke=\"black\" fill=\"#b3b3b3\" cx=\"20\" cy=\"30\" data-type=\"element node\" data-element-id=\"5\" data-node-id=\"5\" data-label-name=\"right_eye_outer\"></circle><circle r=\"1.5\" stroke=\"black\" fill=\"#b3b3b3\" cx=\"40\" cy=\"30\" data-type=\"element node\" data-element-id=\"6\" data-node-id=\"6\" data-label-name=\"right_eye_inner\"></circle><circle r=\"1.5\" stroke=\"black\" fill=\"#b3b3b3\" cx=\"30\" cy=\"25\" data-type=\"element node\" data-element-id=\"7\" data-node-id=\"7\" data-label-name=\"right_eye_upper\"></circle><circle r=\"1.5\" stroke=\"black\" fill=\"#b3b3b3\" cx=\"30\" cy=\"35\" data-type=\"element node\" data-element-id=\"8\" data-node-id=\"8\" data-label-name=\"right_eye_lower\"></circle><circle r=\"1.5\" stroke=\"black\" fill=\"#b3b3b3\" cx=\"50\" cy=\"55\" data-type=\"element node\" data-element-id=\"9\" data-node-id=\"9\" data-label-name=\"nose_tip\"></circle><circle r=\"1.5\" stroke=\"black\" fill=\"#b3b3b3\" cx=\"65\" cy=\"75\" data-type=\"element node\" data-element-id=\"10\" data-node-id=\"10\" data-label-name=\"mouth_left\"></circle><circle r=\"1.5\" stroke=\"black\" fill=\"#b3b3b3\" cx=\"35\" cy=\"75\" data-type=\"element node\" data-element-id=\"11\" data-node-id=\"11\" data-label-name=\"mouth_right\"></circle><circle r=\"1.5\" stroke=\"black\" fill=\"#b3b3b3\" cx=\"50\" cy=\"70\" data-type=\"element node\" data-element-id=\"12\" data-node-id=\"12\" data-label-name=\"lip_upper\"></circle><circle r=\"1.5\" stroke=\"black\" fill=\"#b3b3b3\" cx=\"50\" cy=\"82\" data-type=\"element node\" data-element-id=\"13\" data-node-id=\"13\" data-label-name=\"lip_lower\"></circle>"
+  },
+  {
+    "name": "hand",
+    "type": "rectangle",
+    "attributes": [
+      {
+        "name": "whose",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "driver",
+        "values": [
+          "driver",
+          "passenger"
+        ]
+      },
+      {
+        "name": "side",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "left",
+        "values": [
+          "left",
+          "right"
+        ]
+      },
+      {
+        "name": "on_wheel",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "unknown",
+        "values": [
+          "unknown",
+          "yes",
+          "no"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "phone",
+    "type": "rectangle",
+    "attributes": [
+      {
+        "name": "state",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "held",
+        "values": [
+          "held",
+          "mounted",
+          "lap"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "person",
+    "type": "rectangle",
+    "attributes": [
+      {
+        "name": "seat",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "driver",
+        "values": [
+          "driver",
+          "front_passenger",
+          "rear_left",
+          "rear_middle",
+          "rear_right"
+        ]
+      },
+      {
+        "name": "seatbelt",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "unknown",
+        "values": [
+          "unknown",
+          "worn_correct",
+          "worn_incorrect",
+          "not_worn"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "child_seat",
+    "type": "rectangle",
+    "attributes": [
+      {
+        "name": "seat",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "driver",
+        "values": [
+          "driver",
+          "front_passenger",
+          "rear_left",
+          "rear_middle",
+          "rear_right"
+        ]
+      },
+      {
+        "name": "occupied",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "unknown",
+        "values": [
+          "unknown",
+          "no"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "infant_seat",
+    "type": "rectangle",
+    "attributes": [
+      {
+        "name": "seat",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "driver",
+        "values": [
+          "driver",
+          "front_passenger",
+          "rear_left",
+          "rear_middle",
+          "rear_right"
+        ]
+      },
+      {
+        "name": "facing",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "rear",
+        "values": [
+          "rear",
+          "front"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "object",
+    "type": "rectangle",
+    "attributes": [
+      {
+        "name": "seat",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "driver",
+        "values": [
+          "driver",
+          "front_passenger",
+          "rear_left",
+          "rear_middle",
+          "rear_right"
+        ]
+      },
+      {
+        "name": "type",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "other",
+        "values": [
+          "other",
+          "bag",
+          "box",
+          "cup"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "frame_meta",
+    "type": "tag",
+    "attributes": [
+      {
+        "name": "modality",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "ir",
+        "values": [
+          "ir",
+          "rgb"
+        ]
+      },
+      {
+        "name": "light",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "unknown",
+        "values": [
+          "unknown",
+          "day",
+          "night"
+        ]
+      },
+      {
+        "name": "camera_blocked",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "no",
+        "values": [
+          "no",
+          "yes"
+        ]
+      }
+    ]
+  }
+]

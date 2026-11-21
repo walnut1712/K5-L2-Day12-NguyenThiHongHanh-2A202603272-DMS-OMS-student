@@ -1,0 +1,12 @@
+Ảnh trong thư mục này chỉ dùng cho buổi học trong lớp. Không chia sẻ, không tải lên dịch vụ ngoài.
+
+oms/  SVIRO - Synthetic Vehicle Interior Rear Seat Occupancy dataset, DFKI.
+      https://sviro.kl.dfki.de/  License: CC BY-NC-SA 4.0 (phi thương mại, chia sẻ cùng giấy phép).
+      Cite: S. Dias Da Cruz et al., SVIRO: Synthetic Vehicle Interior Rear Seat Occupancy Dataset
+      and Benchmark, WACV 2020. Ảnh đã đổi tên (S01_ir.png ...). '_ir' là ảnh xám SVIRO mô phỏng
+      hồng ngoại (IR-sim), không phải IR thật.
+
+driver/  Drive&Act, a_column_driver NIR. Copyright Fraunhofer IOSB, chỉ dùng cho học tập và nghiên cứu.
+         https://driveandact.com/  Cite: M. Martin et al., Drive&Act: A Multi-modal Dataset for
+         Fine-grained Driver Behavior Recognition in Autonomous Vehicles, ICCV 2019.
+         Khung đã trích từ video và đổi tên (D01.png ...); ảnh xoay ~90° như camera gốc.

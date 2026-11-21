@@ -1,0 +1,4 @@
+G09
+oms/: SVIRO BMW X5, bộ set9, 10 cảnh x (IR-sim + RGB)
+driver/: Drive&Act NIR, 6 khung
+Schema: Cabin v1.0 (labels_cabin_v1.json)
