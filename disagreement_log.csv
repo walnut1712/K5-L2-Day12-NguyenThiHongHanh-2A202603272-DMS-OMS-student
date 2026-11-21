@@ -1,31 +1,31 @@
-﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
-D01.png,frame_meta,light,khác giá trị,unknown,night,,,
-D01.png,face,eye_left,khác giá trị (IoU=0.90),open,unknown,,,
-D01.png,face,eye_right,khác giá trị (IoU=0.90),open,unknown,,,
-D01.png,face,gaze_zone,khác giá trị (IoU=0.90),road,center,,,
-D01.png,face13,left_eye_outer.outside,khác cờ,0,1,,,
-D01.png,face13,left_eye_inner.outside,khác cờ,0,1,,,
-D01.png,face13,left_eye_upper.outside,khác cờ,0,1,,,
-D01.png,face13,left_eye_lower.outside,khác cờ,0,1,,,
-D01.png,face13,right_eye_outer.outside,khác cờ,0,1,,,
-D01.png,face13,right_eye_inner.outside,khác cờ,0,1,,,
-D01.png,face13,right_eye_upper.outside,khác cờ,0,1,,,
-D01.png,face13,right_eye_lower.outside,khác cờ,0,1,,,
-D01.png,face13,mouth_right.occluded,khác cờ,0,1,,,
-D02.png,frame_meta,light,khác giá trị,unknown,night,,,
-D02.png,face13,right_eye_outer.occluded,khác cờ,1,0,,,
-D03.png,frame_meta,light,khác giá trị,unknown,night,,,
-D04.png,frame_meta,light,khác giá trị,unknown,night,,,
-D04.png,face,eye_left,khác giá trị (IoU=0.59),unknown,open,,,
-D04.png,face,eye_right,khác giá trị (IoU=0.59),unknown,open,,,
-D04.png,person,seatbelt,khác giá trị (IoU=0.90),worn_incorrect,worn_correct,,,
-D04.png,face13,mouth_right.outside,khác cờ,1,0,,,
-D05.png,frame_meta,light,khác giá trị,unknown,night,,,
-D06.png,frame_meta,light,khác giá trị,unknown,night,,,
-D06.png,face,eye_left,khác giá trị (IoU=0.60),open,unknown,,,
-D06.png,face,gaze_zone,khác giá trị (IoU=0.60),lap,other,,,
-D06.png,face,glasses,khác giá trị (IoU=0.60),none,unknown,,,
-D06.png,face13,mouth_right.occluded,khác cờ,0,1,,,
-D06.png,face13,mouth_right.outside,khác cờ,1,0,,,
-S01_ir.png,infant_seat,facing,khác giá trị (IoU=0.99),front,rear,,,
-S01_rgb.png,infant_seat,facing,khác giá trị (IoU=0.99),front,rear,,,
+image,label,field,issue,mine,peer,verdict,guideline_rule,action
+D01.png,frame_meta,light,khác giá trị,unknown,night,mine,4.4-1,Không thấy rõ ngày/đêm từ bối cảnh ngoài xe nên ghi unknown; peer sửa thành unknown
+D01.png,face,eye_left,khác giá trị (IoU=0.90),open,unknown,mine,4.5,Nhìn xuyên qua kính clear thấy rõ khe mắt mở; peer sửa thành open
+D01.png,face,eye_right,khác giá trị (IoU=0.90),open,unknown,mine,4.5,Nhìn xuyên qua kính clear thấy rõ khe mắt mở; peer sửa thành open
+D01.png,face,gaze_zone,khác giá trị (IoU=0.90),road,center,mine,4.5,Tài xế nhìn thẳng đường phía trước qua kính chắn gió; peer sửa thành road
+D01.png,face13,left_eye_outer.outside,khác cờ,0,1,mine,4.6,Mắt nằm trong mặt và thấy rõ nên outside=0; peer bỏ cờ outside
+D01.png,face13,left_eye_inner.outside,khác cờ,0,1,mine,4.6,Mắt nằm trong mặt và thấy rõ nên outside=0; peer bỏ cờ outside
+D01.png,face13,left_eye_upper.outside,khác cờ,0,1,mine,4.6,Mắt nằm trong mặt và thấy rõ nên outside=0; peer bỏ cờ outside
+D01.png,face13,left_eye_lower.outside,khác cờ,0,1,mine,4.6,Mắt nằm trong mặt và thấy rõ nên outside=0; peer bỏ cờ outside
+D01.png,face13,right_eye_outer.outside,khác cờ,0,1,mine,4.6,Mắt nằm trong mặt và thấy rõ nên outside=0; peer bỏ cờ outside
+D01.png,face13,right_eye_inner.outside,khác cờ,0,1,mine,4.6,Mắt nằm trong mặt và thấy rõ nên outside=0; peer bỏ cờ outside
+D01.png,face13,right_eye_upper.outside,khác cờ,0,1,mine,4.6,Mắt nằm trong mặt và thấy rõ nên outside=0; peer bỏ cờ outside
+D01.png,face13,right_eye_lower.outside,khác cờ,0,1,mine,4.6,Mắt nằm trong mặt và thấy rõ nên outside=0; peer bỏ cờ outside
+D01.png,face13,mouth_right.occluded,khác cờ,0,1,mine,4.6,Khóe miệng phải nhìn rõ không bị che khuất; giữ occluded=0
+D02.png,frame_meta,light,khác giá trị,unknown,night,mine,4.4-1,Không thấy rõ ngày/đêm từ bối cảnh ngoài xe nên ghi unknown; peer sửa thành unknown
+D02.png,face13,right_eye_outer.occluded,khác cờ,1,0,ambiguous,4.6,Đuôi mắt phải nằm sát viền bóng đổ khuôn mặt nghiêng; thống nhất chấp nhận cả hai
+D03.png,frame_meta,light,khác giá trị,unknown,night,mine,4.4-1,Không thấy rõ ngày/đêm từ bối cảnh ngoài xe nên ghi unknown; peer sửa thành unknown
+D04.png,frame_meta,light,khác giá trị,unknown,night,mine,4.4-1,Không thấy rõ ngày/đêm từ bối cảnh ngoài xe nên ghi unknown; peer sửa thành unknown
+D04.png,face,eye_left,khác giá trị (IoU=0.59),unknown,open,mine,4.5,Mắt bị quay khuất và bóng tối che không thấy khe mắt; peer sửa thành unknown để hết WARN
+D04.png,face,eye_right,khác giá trị (IoU=0.59),unknown,open,mine,4.5,Mắt bị quay khuất và bóng tối che không thấy khe mắt; peer sửa thành unknown để hết WARN
+D04.png,person,seatbelt,khác giá trị (IoU=0.90),worn_incorrect,worn_correct,mine,4.7,Dây an toàn lệch khỏi vai do tài xế rướn người thao tác; peer sửa thành worn_incorrect
+D04.png,face13,mouth_right.outside,khác cờ,1,0,ambiguous,4.6,Khóe miệng phải bị khuất hẳn do góc mặt nghiêng; thống nhất đánh cờ che
+D05.png,frame_meta,light,khác giá trị,unknown,night,mine,4.4-1,Không thấy rõ ngày/đêm từ bối cảnh ngoài xe nên ghi unknown; peer sửa thành unknown
+D06.png,frame_meta,light,khác giá trị,unknown,night,mine,4.4-1,Không thấy rõ ngày/đêm từ bối cảnh ngoài xe nên ghi unknown; peer sửa thành unknown
+D06.png,face,eye_left,khác giá trị (IoU=0.60),open,unknown,mine,4.5,Thấy rõ khe mắt trái mở và không có cờ che; peer sửa open để hết WARN
+D06.png,face,gaze_zone,khác giá trị (IoU=0.60),lap,other,mine,4.5,Tài xế cúi đầu nhìn xuống vùng đùi; peer sửa thành lap
+D06.png,face,glasses,khác giá trị (IoU=0.60),none,unknown,mine,4.5,Tài xế nhìn rõ mắt không đeo kính; peer sửa thành none
+D06.png,face13,mouth_right.occluded,khác cờ,0,1,ambiguous,4.6,Khóe miệng phải bị khuất do góc mặt; hai bên thống nhất một loại cờ che khuất
+D06.png,face13,mouth_right.outside,khác cờ,1,0,ambiguous,4.6,Khóe miệng phải bị khuất do góc mặt; hai bên thống nhất một loại cờ che khuất
+S01_ir.png,infant_seat,facing,khác giá trị (IoU=0.99),front,rear,ambiguous,4.4-3,Quy ước facing theo chiều xe hay theo lòng nôi; giữ front theo guideline OMS
+S01_rgb.png,infant_seat,facing,khác giá trị (IoU=0.99),front,rear,ambiguous,4.4-3,Quy ước facing theo chiều xe hay theo lòng nôi; giữ front theo guideline OMS

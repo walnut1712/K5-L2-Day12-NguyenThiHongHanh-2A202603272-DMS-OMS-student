@@ -1,0 +1,6 @@
+frame_id,source,phenomenon,affected_field,effect_on_label
+S01_ir,IR_sim,"không thấy dây an toàn trên áo tối màu",seatbelt,"giữ unknown; RGB cùng cảnh cũng không thấy"
+S02_ir,IR_sim,"kênh đỏ giả lập IR làm mất toàn bộ thông tin màu sắc và hoa văn của đồ vật",object.type,"phải dựa vào hình dạng hình học và kích thước thay vì màu sắc để xác định type"
+D01,real_IR,"ánh sáng NIR phản chiếu trên bề mặt tròng kính cận trong suốt",face.glasses,"tròng kính sáng lóa nhưng vẫn nhìn xuyên được mắt nên gán clear và eye=open"
+D03,real_IR,"đốm phản xạ của đèn LED NIR trên tròng kính che lấp một phần mắt phải",face.eye_right,"ghi unknown thay vì closed vì không xác định được mí mắt"
+D06,real_IR,"ánh sáng NIR suy giảm theo khoảng cách khiến vùng đùi tối hơn nhiều so với khuôn mặt",face.gaze_zone,"vẫn xác định được hướng nhìn cúi xuống đùi (lap) dựa vào góc nghiêng đầu và mi mắt"
