@@ -1,4 +1,4 @@
-﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
+image,label,field,issue,mine,peer,verdict,guideline_rule,action
 D01.png,frame_meta,light,khác giá trị,unknown,night,mine,4.4-1,Không thấy rõ ngày/đêm từ bối cảnh ngoài xe nên ghi unknown; peer sửa thành unknown
 D01.png,face,eye_left,khác giá trị (IoU=0.90),open,unknown,mine,4.5,Nhìn xuyên qua kính clear thấy rõ khe mắt mở; peer sửa thành open
 D01.png,face,eye_right,khác giá trị (IoU=0.90),open,unknown,mine,4.5,Nhìn xuyên qua kính clear thấy rõ khe mắt mở; peer sửa thành open

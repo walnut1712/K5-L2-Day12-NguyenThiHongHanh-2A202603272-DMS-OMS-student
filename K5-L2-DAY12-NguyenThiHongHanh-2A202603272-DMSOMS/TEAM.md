@@ -16,5 +16,5 @@ Ca hai bạn vẫn không thống nhất và đã hỏi coach (ghi tên ảnh + 
 Mỗi người một mục, 1–2 dòng mỗi ý.
 
 ### NguyenThiHongHanh-2A202603272
-- Phần mình làm: Tự gán đủ 22 ảnh cốt lõi, chạy tự kiểm tra cabin_check qua các checkpoint A, B, Final đạt 0 lỗi 0 cảnh báo; chạy so sánh diff với bạn Đặng Gia Tuấn và rà soát xử lý toàn bộ 30 điểm khác biệt theo Guideline Cabin v1.0.
+- Phần mình làm: Tự gán đủ 22 ảnh cốt lõi và 4 ảnh mở rộng S09-S10 (export_extra.zip); chạy tự kiểm tra cabin_check qua các checkpoint A, B, Final và Extra đều đạt 0 lỗi 0 cảnh báo; chạy so sánh diff với bạn Đặng Gia Tuấn và rà soát xử lý toàn bộ 30 điểm khác biệt theo Guideline Cabin v1.0.
 - Điều mình học được hôm nay: Hiểu rõ đặc tính quang học của cảm biến NIR 940nm trong cabin, sự khác biệt giữa IR thật và IR giả lập, và tầm quan trọng của việc tuân thủ quy tắc không đoán (unknown) đối với các trường hợp bị che khuất hoặc thiếu thông tin.
